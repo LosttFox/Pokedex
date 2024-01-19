@@ -1,17 +1,20 @@
 package poke.controller;
 
 import poke.model.*;
+import poke.view.PokeFrame;
 import java.util.ArrayList;
 
 public class Controller
 {
 	private ArrayList<Pokemon> pokedex;
+	private PokeFrame window;
 	private String dataFile;
 	
 	public Controller()
 	{
 		this.pokedex = new ArrayList<Pokemon>();
 		this.dataFile = "";
+		this.window = new PokeFrame(this);
 		
 		createPokedex();
 	}
