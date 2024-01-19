@@ -8,4 +8,13 @@ public class Fennekin extends Pokemon
 		super(653, "Fennekin");
 	}
 
+	public Fennekin(String name)
+	{
+		super(653, name);
+	}
+	
+	public Fennekin(int number, String name)
+	{
+		super(number, name);
+	}
 }

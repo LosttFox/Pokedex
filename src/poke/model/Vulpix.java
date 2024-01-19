@@ -8,4 +8,13 @@ public class Vulpix extends Pokemon
 		super(37, "Vulpix");
 	}
 
+	public Vulpix(String name)
+	{
+		super(37, name);
+	}
+	
+	public Vulpix(int number, String name)
+	{
+		super(number, name);
+	}
 }

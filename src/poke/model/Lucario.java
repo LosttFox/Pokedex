@@ -8,4 +8,13 @@ public class Lucario extends Pokemon
 		super(448, "Lucario");
 	}
 
+	public Lucario(String name)
+	{
+		super(448, name);
+	}
+	
+	public Lucario(int number, String name)
+	{
+		super(number, name);
+	}
 }

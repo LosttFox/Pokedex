@@ -6,4 +6,14 @@ public class Cinderace extends Pokemon
 	{
 		super(816, "Cinderace");
 	}
+	
+	public Cinderace(String name)
+	{
+		super(816, name);
+	}
+	
+	public Cinderace(int number, String name)
+	{
+		super(number, name);
+	}
 }

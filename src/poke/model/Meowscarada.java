@@ -8,4 +8,13 @@ public class Meowscarada extends Pokemon
 		super(908, "Meowscarada");
 	}
 
+	public Meowscarada(String name)
+	{
+		super(908, name);
+	}
+	
+	public Meowscarada(int number, String name)
+	{
+		super(number, name);
+	}
 }
