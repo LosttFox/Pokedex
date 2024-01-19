@@ -87,7 +87,7 @@ public abstract class Pokemon implements Serializable
 	@Override
 	public String toString()
 	{
-		String description = "Hi, I am a " +  this.getClass().getSimpleName() + " pokemon my name is: " + getName();
+		String description = "Hi, I am a " +  this.getClass().getSimpleName() + " pokemon my name is: " + getName() + " my pokedex number is: " + getPokedexNumber();
 		
 		return description;
 	}
