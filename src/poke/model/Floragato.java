@@ -3,10 +3,9 @@ package poke.model;
 public class Floragato extends Pokemon
 {
 
-	public Floragato(int pokedexNumber, String name)
+	public Floragato()
 	{
-		super(pokedexNumber, name);
-		// TODO Auto-generated constructor stub
+		super(907, "Floragato");
 	}
 
 }

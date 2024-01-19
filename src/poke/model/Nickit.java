@@ -3,10 +3,9 @@ package poke.model;
 public class Nickit extends Pokemon
 {
 
-	public Nickit(int pokedexNumber, String name)
+	public Nickit()
 	{
-		super(pokedexNumber, name);
-		// TODO Auto-generated constructor stub
+		super(827, "Nickit");
 	}
 
 }

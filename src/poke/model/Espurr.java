@@ -3,10 +3,9 @@ package poke.model;
 public class Espurr extends Pokemon
 {
 
-	public Espurr(int pokedexNumber, String name)
+	public Espurr()
 	{
-		super(pokedexNumber, name);
-		// TODO Auto-generated constructor stub
+		super(677, "Espurr");
 	}
 
 }

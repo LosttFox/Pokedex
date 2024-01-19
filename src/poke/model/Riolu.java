@@ -3,10 +3,9 @@ package poke.model;
 public class Riolu extends Pokemon
 {
 
-	public Riolu(int pokedexNumber, String name)
+	public Riolu()
 	{
-		super(pokedexNumber, name);
-		// TODO Auto-generated constructor stub
+		super(447, "Riolu");
 	}
 
 }

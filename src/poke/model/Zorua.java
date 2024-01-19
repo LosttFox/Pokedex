@@ -3,10 +3,9 @@ package poke.model;
 public class Zorua extends Pokemon
 {
 
-	public Zorua(int pokedexNumber, String name)
+	public Zorua()
 	{
-		super(pokedexNumber, name);
-		// TODO Auto-generated constructor stub
+		super(570, "Zorua");
 	}
 
 }

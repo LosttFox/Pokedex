@@ -3,10 +3,9 @@ package poke.model;
 public class Thievul extends Pokemon
 {
 
-	public Thievul(int pokedexNumber, String name)
+	public Thievul()
 	{
-		super(pokedexNumber, name);
-		// TODO Auto-generated constructor stub
+		super(828, "Thievul");
 	}
 
 }

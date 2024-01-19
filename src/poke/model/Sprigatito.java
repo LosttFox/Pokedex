@@ -3,10 +3,9 @@ package poke.model;
 public class Sprigatito extends Pokemon
 {
 
-	public Sprigatito(int pokedexNumber, String name)
+	public Sprigatito()
 	{
-		super(pokedexNumber, name);
-		// TODO Auto-generated constructor stub
+		super(906, "Sprigatito");
 	}
 
 }

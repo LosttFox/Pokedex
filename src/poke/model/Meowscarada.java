@@ -3,10 +3,9 @@ package poke.model;
 public class Meowscarada extends Pokemon
 {
 
-	public Meowscarada(int pokedexNumber, String name)
+	public Meowscarada()
 	{
-		super(pokedexNumber, name);
-		// TODO Auto-generated constructor stub
+		super(908, "Meowscarada");
 	}
 
 }

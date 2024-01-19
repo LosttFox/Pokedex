@@ -3,9 +3,9 @@ package poke.model;
 public class Braixen extends Pokemon
 {
 
-	public Braixen(int pokedexNumber, String name)
+	public Braixen()
 	{
-		super(pokedexNumber, name);
+		super(654, "Braixen");
 	}
 	
 }

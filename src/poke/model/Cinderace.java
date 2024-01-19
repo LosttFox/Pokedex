@@ -2,8 +2,8 @@ package poke.model;
 
 public class Cinderace extends Pokemon
 {
-	public Cinderace(int pokedexNumber, String name)
+	public Cinderace()
 	{
-		super(pokedexNumber, name);
+		super(816, "Cinderace");
 	}
 }

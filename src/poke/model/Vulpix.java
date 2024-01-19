@@ -3,10 +3,9 @@ package poke.model;
 public class Vulpix extends Pokemon
 {
 
-	public Vulpix(int pokedexNumber, String name)
+	public Vulpix()
 	{
-		super(pokedexNumber, name);
-		// TODO Auto-generated constructor stub
+		super(37, "Vulpix");
 	}
 
 }

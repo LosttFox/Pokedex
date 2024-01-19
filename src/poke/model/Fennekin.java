@@ -3,10 +3,9 @@ package poke.model;
 public class Fennekin extends Pokemon
 {
 
-	public Fennekin(int pokedexNumber, String name)
+	public Fennekin()
 	{
-		super(pokedexNumber, name);
-		// TODO Auto-generated constructor stub
+		super(653, "Fennekin");
 	}
 
 }

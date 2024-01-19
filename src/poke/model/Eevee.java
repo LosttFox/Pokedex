@@ -3,9 +3,9 @@ package poke.model;
 public class Eevee extends Pokemon
 {
 
-	public Eevee(int pokedexNumber, String name)
+	public Eevee()
 	{
-		super(pokedexNumber, name);
+		super(133, "Eevee");
 	}
 
 }

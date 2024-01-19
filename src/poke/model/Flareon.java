@@ -3,10 +3,9 @@ package poke.model;
 public class Flareon extends Pokemon
 {
 
-	public Flareon(int pokedexNumber, String name)
+	public Flareon()
 	{
-		super(pokedexNumber, name);
-		// TODO Auto-generated constructor stub
+		super(136, "Flareon");
 	}
 
 }

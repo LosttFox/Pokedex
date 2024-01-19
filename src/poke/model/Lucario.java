@@ -3,10 +3,9 @@ package poke.model;
 public class Lucario extends Pokemon
 {
 
-	public Lucario(int pokedexNumber, String name)
+	public Lucario()
 	{
-		super(pokedexNumber, name);
-		// TODO Auto-generated constructor stub
+		super(448, "Lucario");
 	}
 
 }
