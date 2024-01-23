@@ -7,16 +7,17 @@ import java.util.ArrayList;
 public class Controller
 {
 	private ArrayList<Pokemon> pokedex;
-	private PokeFrame window;
 	private String dataFile;
+	private PokeFrame window;
 	
 	public Controller()
 	{
 		this.pokedex = new ArrayList<Pokemon>();
 		this.dataFile = "";
-		this.window = new PokeFrame(this);
 		
 		createPokedex();
+		
+		this.window = new PokeFrame(this);
 	}
 	
 	public void start()
