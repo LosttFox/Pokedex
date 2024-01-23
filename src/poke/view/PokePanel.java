@@ -35,7 +35,7 @@ public class PokePanel extends JPanel
 	
 	private void setupPanel()
 	{
-		
+		setBackground(Color.PINK);
 	}
 	
 	private void setupListeners()

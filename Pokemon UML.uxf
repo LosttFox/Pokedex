@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>574</x>
+      <y>336</y>
+      <w>252</w>
+      <h>203</h>
+    </coordinates>
+    <panel_attributes>/poke.model::Pokemon/
+--
+-pokedexNumber: int
+-health: int
+-canEvolve: boolean
+-name: String
+--
++Pokemon(int pokedexNumber, String name): ctor
++getTypes(): String[]
++getHealth(): int
++isCanEvolve(): boolean
++getName(): String
++getPokedexNumber(): int
++setHealth(int health): void
++setCanEvolve(boolean canEvolve): void
++setName(String name): void
++toString(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>266</x>
+      <y>504</y>
+      <w>210</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Floragato
+--
+--
++Floragato(): ctor
++Floragato(String name): ctor
++Floragato(int number, String name): ctor
+--
+
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>868</x>
+      <y>777</y>
+      <w>189</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Riolu
+--
+--
++Riolu(): ctor
++Riolu(String name): ctor
++Riolu(int number, String name): ctor
+--
+
+group=group-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>189</x>
+      <y>322</y>
+      <w>196</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Lugia
+--
+--
++Lugia(): ctor
++Lugia(String name): ctor
++Lugia(int number, String name): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>861</x>
+      <y>868</y>
+      <w>203</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Lucario
+--
+--
++Lucario(): ctor
++Lucario(String name): ctor
++Lucario(int number, String name): ctor
+--
+
+group=group-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>910</x>
+      <y>378</y>
+      <w>196</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Vulpix
+--
+--
++Vulpix(): ctor
++Vulpix(String name): ctor
++Vulpix(int number, String name): ctor
+--
+
+group=group-6</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>644</x>
+      <y>175</y>
+      <w>189</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Mew
+--
+--
++Mew(): ctor
++Mew(String name): ctor
++Mew(int number, String name): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>259</x>
+      <y>413</y>
+      <w>217</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Sprigatito
+--
+--
++Sprigatito(): ctor
++Sprigatito(String name): ctor
++Sprigatito(int number, String name): ctor
+--
+
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>763</x>
+      <y>672</y>
+      <w>203</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Thievul
+--
+--
++Thievul(): ctor
++Thievul(String name): ctor
++Thievul(int number, String name): ctor
+--
+
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>371</x>
+      <y>777</y>
+      <w>196</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Espurr
+--
+--
++Espurr(): ctor
++Espurr(String name): ctor
++Espurr(int number, String name): ctor
+--
+
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>742</x>
+      <y>966</y>
+      <w>203</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Sylveon
+--
+--
++Sylveon(): ctor
++Sylveon(String name): ctor
++Sylveon(int number, String name): ctor
+--
+
+group=group-10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>497</x>
+      <y>574</y>
+      <w>210</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Fennekin
+--
+--
++Fennekin(): ctor
++Fennekin(String name): ctor
++Fennekin(int number, String name): ctor
+--
+
+group=group-4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>252</x>
+      <y>595</y>
+      <w>231</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Meowscarada
+--
+--
++Meowscarada(): ctor
++Meowscarada(String name): ctor
++Meowscarada(int number, String name): ctor
+--
+
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>931</x>
+      <y>273</y>
+      <w>217</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Cinderace
+--
+--
++Cinderace(): ctor
++Cinderace(String name): ctor
++Cinderace(int number, String name): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>364</x>
+      <y>875</y>
+      <w>210</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Meowstic
+--
+--
++Meowstic(): ctor
++Meowstic(String name): ctor
++Meowstic(int number, String name): ctor
+--
+
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>511</x>
+      <y>966</y>
+      <w>203</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Flareon
+--
+--
++Flareon(): ctor
++Flareon(String name): ctor
++Flareon(int number, String name): ctor
+--
+
+group=group-10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>763</x>
+      <y>574</y>
+      <w>196</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Nickit
+--
+--
++Nickit(): ctor
++Nickit(String name): ctor
++Nickit(int number, String name): ctor
+--
+
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>497</x>
+      <y>672</y>
+      <w>203</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Braixen
+--
+--
++Braixen(): ctor
++Braixen(String name): ctor
++Braixen(int number, String name): ctor
+--
+
+group=group-4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>903</x>
+      <y>476</y>
+      <w>210</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Ninetales
+--
+--
++Ninetales(): ctor
++Ninetales(String name): ctor
++Ninetales(int number, String name): ctor
+--
+
+group=group-6</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>315</x>
+      <y>224</y>
+      <w>196</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Zorua
+--
+--
++Zorua(): ctor
++Zorua(String name): ctor
++Zorua(int number, String name): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>623</x>
+      <y>861</y>
+      <w>196</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>poke.model::Eevee
+--
+--
++Eevee(): ctor
++Eevee(String name): ctor
++Eevee(int number, String name): ctor
+--
+
+group=group-10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>532</y>
+      <w>21</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>798</x>
+      <y>532</y>
+      <w>21</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>798</x>
+      <y>644</y>
+      <w>21</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>623</x>
+      <y>644</y>
+      <w>21</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>728</x>
+      <y>931</y>
+      <w>63</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>679</x>
+      <y>931</y>
+      <w>49</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>714</x>
+      <y>532</y>
+      <w>42</w>
+      <h>343</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;470.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>483</x>
+      <y>847</y>
+      <w>21</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>882</x>
+      <y>847</y>
+      <w>21</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>749</x>
+      <y>532</y>
+      <w>189</w>
+      <h>259</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;330.0;250.0;350.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>532</x>
+      <y>532</y>
+      <w>203</w>
+      <h>259</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>270.0;10.0;250.0;320.0;10.0;350.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>329</x>
+      <y>574</y>
+      <w>21</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>364</x>
+      <y>483</y>
+      <w>21</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>427</x>
+      <y>385</y>
+      <w>161</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>210.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>301</y>
+      <w>252</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>340.0;70.0;50.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>462</x>
+      <y>203</y>
+      <w>140</w>
+      <h>147</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>180.0;190.0;110.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>819</x>
+      <y>350</y>
+      <w>154</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;10.0;200.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>763</x>
+      <y>238</y>
+      <w>294</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;140.0;260.0;10.0;400.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>602</x>
+      <y>147</y>
+      <w>161</w>
+      <h>203</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;270.0;10.0;10.0;210.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>987</x>
+      <y>448</y>
+      <w>21</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+</diagram>
