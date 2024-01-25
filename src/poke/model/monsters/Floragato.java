@@ -1,8 +1,6 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
-
-public class Floragato extends Pokemon
+public class Floragato extends Sprigatito
 {
 
 	public Floragato()

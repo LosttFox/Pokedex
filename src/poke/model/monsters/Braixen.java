@@ -1,8 +1,6 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
-
-public class Braixen extends Pokemon
+public class Braixen extends Fennekin
 {
 
 	public Braixen()

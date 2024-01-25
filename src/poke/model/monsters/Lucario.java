@@ -1,8 +1,7 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
 
-public class Lucario extends Pokemon
+public class Lucario extends Riolu
 {
 
 	public Lucario()

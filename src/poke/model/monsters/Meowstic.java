@@ -1,8 +1,6 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
-
-public class Meowstic extends Pokemon
+public class Meowstic extends Espurr
 {
 
 	public Meowstic()

@@ -1,8 +1,6 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
-
-public class Thievul extends Pokemon
+public class Thievul extends Nickit
 {
 
 	public Thievul()

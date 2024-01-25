@@ -1,8 +1,6 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
-
-public class Flareon extends Pokemon
+public class Flareon extends Eevee
 {
 
 	public Flareon()

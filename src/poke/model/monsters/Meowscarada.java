@@ -1,8 +1,6 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
-
-public class Meowscarada extends Pokemon
+public class Meowscarada extends Floragato
 {
 
 	public Meowscarada()

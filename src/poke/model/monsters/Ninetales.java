@@ -1,8 +1,6 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
-
-public class Ninetales extends Pokemon
+public class Ninetales extends Vulpix
 {
 
 	public Ninetales()
