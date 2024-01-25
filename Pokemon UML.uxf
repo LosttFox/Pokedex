@@ -11,21 +11,21 @@
     </coordinates>
     <panel_attributes>/Pokemon/
 --
--pokedexNumber: int
--health: int
--canEvolve: boolean
--name: String
+-pokedexNumber : int
+-health : int
+-canEvolve : boolean
+-name : String
 --
-+Pokemon(int pokedexNumber, String name): constructor
-+getTypes(): String[]
-+getHealth(): int
-+isCanEvolve(): boolean
-+getName(): String
-+getPokedexNumber(): int
-+setHealth(int health): void
-+setCanEvolve(boolean canEvolve): void
-+setName(String name): void
-+toString(): String
++Pokemon(int, String) : constructor
++getTypes() : String[]
++getHealth() : int
++isCanEvolve() : boolean
++getName() : String
++getPokedexNumber() : int
++setHealth(int) : void
++setCanEvolve(boolean) : void
++setName(String) : void
++toString() : String
 
 </panel_attributes>
     <additional_attributes/>
@@ -42,9 +42,9 @@
 --
 
 --
-+Floragato(): constructor
-+Floragato(String name): constructor
-+Floragato(int number, String name): constructor
++Floragato() : constructor
++Floragato(String) : constructor
++Floragato(int, String) : constructor
 
 
 group=group-9</panel_attributes>
@@ -62,9 +62,9 @@ group=group-9</panel_attributes>
 --
 
 --
-+Riolu(): constructor
-+Riolu(String name): constructor
-+Riolu(int number, String name): constructor
++Riolu() : constructor
++Riolu(String) : constructor
++Riolu(int, String) : constructor
 
 
 group=group-1</panel_attributes>
@@ -82,9 +82,9 @@ group=group-1</panel_attributes>
 --
 
 --
-+Lugia(): constructor
-+Lugia(String name): constructor
-+Lugia(int number, String name): constructor
++Lugia() : constructor
++Lugia(String) : constructor
++Lugia(int, String) : constructor
 
 </panel_attributes>
     <additional_attributes/>
@@ -100,9 +100,9 @@ group=group-1</panel_attributes>
     <panel_attributes>Lucario
 --
 --
-+Lucario(): constructor
-+Lucario(String name): constructor
-+Lucario(int number, String name): constructor
++Lucario() : constructor
++Lucario(String) : constructor
++Lucario(int, String) : constructor
 
 
 group=group-1</panel_attributes>
@@ -120,9 +120,9 @@ group=group-1</panel_attributes>
 --
 
 --
-+Vulpix(): constructor
-+Vulpix(String name): constructor
-+Vulpix(int number, String name): constructor
++Vulpix() : constructor
++Vulpix(String) : constructor
++Vulpix(int, String) : constructor
 
 
 group=group-6</panel_attributes>
@@ -140,9 +140,9 @@ group=group-6</panel_attributes>
 --
 
 --
-+Mew(): constructor
-+Mew(String name): constructor
-+Mew(int number, String name): constructor
++Mew() : constructor
++Mew(String) : constructor
++Mew(int, String) : constructor
 
 </panel_attributes>
     <additional_attributes/>
@@ -159,9 +159,9 @@ group=group-6</panel_attributes>
 --
 
 --
-+Sprigatito(): constructor
-+Sprigatito(String name): constructor
-+Sprigatito(int number, String name): constructor
++Sprigatito() : constructor
++Sprigatito(String) : constructor
++Sprigatito(int, String) : constructor
 
 
 group=group-9</panel_attributes>
@@ -179,9 +179,9 @@ group=group-9</panel_attributes>
 --
 
 --
-+Thievul(): constructor
-+Thievul(String name): constructor
-+Thievul(int number, String name): constructor
++Thievul() : constructor
++Thievul(String) : constructor
++Thievul(int, String) : constructor
 
 
 group=group-7</panel_attributes>
@@ -199,9 +199,9 @@ group=group-7</panel_attributes>
 --
 
 --
-+Espurr(): constructor
-+Espurr(String name): constructor
-+Espurr(int number, String name): constructor
++Espurr() : constructor
++Espurr(String) : constructor
++Espurr(int, String) : constructor
 
 
 group=group-8</panel_attributes>
@@ -219,9 +219,9 @@ group=group-8</panel_attributes>
 --
 
 --
-+Sylveon(): constructor
-+Sylveon(String name): constructor
-+Sylveon(int number, String name): constructor
++Sylveon() : constructor
++Sylveon(String) : constructor
++Sylveon(int, String) : constructor
 
 
 group=group-10</panel_attributes>
@@ -239,9 +239,9 @@ group=group-10</panel_attributes>
 --
 
 --
-+Fennekin(): constructor
-+Fennekin(String name): constructor
-+Fennekin(int number, String name): constructor
++Fennekin() : constructor
++Fennekin(String) : constructor
++Fennekin(int, String) : constructor
 
 
 group=group-4</panel_attributes>
@@ -259,9 +259,9 @@ group=group-4</panel_attributes>
 --
 
 --
-+Meowscarada(): constructor
-+Meowscarada(String name): constructor
-+Meowscarada(int number, String name): constructor
++Meowscarada() : constructor
++Meowscarada(String) : constructor
++Meowscarada(int, String) : constructor
 
 
 group=group-9</panel_attributes>
@@ -279,9 +279,9 @@ group=group-9</panel_attributes>
 --
 
 --
-+Cinderace(): constructor
-+Cinderace(String name): constructor
-+Cinderace(int number, String name): constructor
++Cinderace() : constructor
++Cinderace(String) : constructor
++Cinderace(int, String) : constructor
 
 </panel_attributes>
     <additional_attributes/>
@@ -298,9 +298,9 @@ group=group-9</panel_attributes>
 --
 
 --
-+Meowstic(): constructor
-+Meowstic(String name): constructor
-+Meowstic(int number, String name): constructor
++Meowstic() : constructor
++Meowstic(String) : constructor
++Meowstic(int, String) : constructor
 
 
 group=group-8</panel_attributes>
@@ -318,9 +318,9 @@ group=group-8</panel_attributes>
 --
 
 --
-+Flareon(): constructor
-+Flareon(String name): constructor
-+Flareon(int number, String name): constructor
++Flareon() : constructor
++Flareon(String) : constructor
++Flareon(int, String) : constructor
 
 
 group=group-10</panel_attributes>
@@ -338,9 +338,9 @@ group=group-10</panel_attributes>
 --
 
 --
-+Nickit(): constructor
-+Nickit(String name): constructor
-+Nickit(int number, String name): constructor
++Nickit() : constructor
++Nickit(String) : constructor
++Nickit(int, String) : constructor
 
 
 group=group-7</panel_attributes>
@@ -358,9 +358,9 @@ group=group-7</panel_attributes>
 --
 
 --
-+Braixen(): constructor
-+Braixen(String name): constructor
-+Braixen(int number, String name): constructor
++Braixen() : constructor
++Braixen(String) : constructor
++Braixen(int, String) : constructor
 
 
 group=group-4</panel_attributes>
@@ -378,9 +378,9 @@ group=group-4</panel_attributes>
 --
 
 --
-+Ninetales(): constructor
-+Ninetales(String name): constructor
-+Ninetales(int number, String name): constructor
++Ninetales() : constructor
++Ninetales(String) : constructor
++Ninetales(int, String) : constructor
 
 
 group=group-6</panel_attributes>
@@ -398,9 +398,9 @@ group=group-6</panel_attributes>
 --
 
 --
-+Zorua(): constructor
-+Zorua(String name): constructor
-+Zorua(int number, String name): constructor
++Zorua() : constructor
++Zorua(String) : constructor
++Zorua(int, String) : constructor
 
 </panel_attributes>
     <additional_attributes/>
@@ -417,9 +417,9 @@ group=group-6</panel_attributes>
 --
 
 --
-+Eevee(): constructor
-+Eevee(String name): constructor
-+Eevee(int number, String name): constructor
++Eevee() : constructor
++Eevee(String) : constructor
++Eevee(int, String) : constructor
 
 
 group=group-10</panel_attributes>
