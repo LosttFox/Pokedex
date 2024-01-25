@@ -26,7 +26,7 @@
 +setCanEvolve(boolean canEvolve): void
 +setName(String name): void
 +toString(): String
---
+
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -40,11 +40,12 @@
     </coordinates>
     <panel_attributes>Floragato
 --
+
 --
 +Floragato(): constructor
 +Floragato(String name): constructor
 +Floragato(int number, String name): constructor
---
+
 
 group=group-9</panel_attributes>
     <additional_attributes/>
@@ -59,11 +60,12 @@ group=group-9</panel_attributes>
     </coordinates>
     <panel_attributes>Riolu
 --
+
 --
 +Riolu(): constructor
 +Riolu(String name): constructor
 +Riolu(int number, String name): constructor
---
+
 
 group=group-1</panel_attributes>
     <additional_attributes/>
@@ -78,11 +80,12 @@ group=group-1</panel_attributes>
     </coordinates>
     <panel_attributes>Lugia
 --
+
 --
 +Lugia(): constructor
 +Lugia(String name): constructor
 +Lugia(int number, String name): constructor
---
+
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -100,7 +103,7 @@ group=group-1</panel_attributes>
 +Lucario(): constructor
 +Lucario(String name): constructor
 +Lucario(int number, String name): constructor
---
+
 
 group=group-1</panel_attributes>
     <additional_attributes/>
@@ -115,11 +118,12 @@ group=group-1</panel_attributes>
     </coordinates>
     <panel_attributes>Vulpix
 --
+
 --
 +Vulpix(): constructor
 +Vulpix(String name): constructor
 +Vulpix(int number, String name): constructor
---
+
 
 group=group-6</panel_attributes>
     <additional_attributes/>
@@ -134,11 +138,12 @@ group=group-6</panel_attributes>
     </coordinates>
     <panel_attributes>Mew
 --
+
 --
 +Mew(): constructor
 +Mew(String name): constructor
 +Mew(int number, String name): constructor
---
+
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -152,11 +157,12 @@ group=group-6</panel_attributes>
     </coordinates>
     <panel_attributes>Sprigatito
 --
+
 --
 +Sprigatito(): constructor
 +Sprigatito(String name): constructor
 +Sprigatito(int number, String name): constructor
---
+
 
 group=group-9</panel_attributes>
     <additional_attributes/>
@@ -171,11 +177,12 @@ group=group-9</panel_attributes>
     </coordinates>
     <panel_attributes>Thievul
 --
+
 --
 +Thievul(): constructor
 +Thievul(String name): constructor
 +Thievul(int number, String name): constructor
---
+
 
 group=group-7</panel_attributes>
     <additional_attributes/>
@@ -190,11 +197,12 @@ group=group-7</panel_attributes>
     </coordinates>
     <panel_attributes>Espurr
 --
+
 --
 +Espurr(): constructor
 +Espurr(String name): constructor
 +Espurr(int number, String name): constructor
---
+
 
 group=group-8</panel_attributes>
     <additional_attributes/>
@@ -209,11 +217,12 @@ group=group-8</panel_attributes>
     </coordinates>
     <panel_attributes>Sylveon
 --
+
 --
 +Sylveon(): constructor
 +Sylveon(String name): constructor
 +Sylveon(int number, String name): constructor
---
+
 
 group=group-10</panel_attributes>
     <additional_attributes/>
@@ -228,11 +237,12 @@ group=group-10</panel_attributes>
     </coordinates>
     <panel_attributes>Fennekin
 --
+
 --
 +Fennekin(): constructor
 +Fennekin(String name): constructor
 +Fennekin(int number, String name): constructor
---
+
 
 group=group-4</panel_attributes>
     <additional_attributes/>
@@ -247,11 +257,12 @@ group=group-4</panel_attributes>
     </coordinates>
     <panel_attributes>Meowscarada
 --
+
 --
 +Meowscarada(): constructor
 +Meowscarada(String name): constructor
 +Meowscarada(int number, String name): constructor
---
+
 
 group=group-9</panel_attributes>
     <additional_attributes/>
@@ -266,11 +277,12 @@ group=group-9</panel_attributes>
     </coordinates>
     <panel_attributes>Cinderace
 --
+
 --
 +Cinderace(): constructor
 +Cinderace(String name): constructor
 +Cinderace(int number, String name): constructor
---
+
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -284,11 +296,12 @@ group=group-9</panel_attributes>
     </coordinates>
     <panel_attributes>Meowstic
 --
+
 --
 +Meowstic(): constructor
 +Meowstic(String name): constructor
 +Meowstic(int number, String name): constructor
---
+
 
 group=group-8</panel_attributes>
     <additional_attributes/>
@@ -303,11 +316,12 @@ group=group-8</panel_attributes>
     </coordinates>
     <panel_attributes>Flareon
 --
+
 --
 +Flareon(): constructor
 +Flareon(String name): constructor
 +Flareon(int number, String name): constructor
---
+
 
 group=group-10</panel_attributes>
     <additional_attributes/>
@@ -322,11 +336,12 @@ group=group-10</panel_attributes>
     </coordinates>
     <panel_attributes>Nickit
 --
+
 --
 +Nickit(): constructor
 +Nickit(String name): constructor
 +Nickit(int number, String name): constructor
---
+
 
 group=group-7</panel_attributes>
     <additional_attributes/>
@@ -341,11 +356,12 @@ group=group-7</panel_attributes>
     </coordinates>
     <panel_attributes>Braixen
 --
+
 --
 +Braixen(): constructor
 +Braixen(String name): constructor
 +Braixen(int number, String name): constructor
---
+
 
 group=group-4</panel_attributes>
     <additional_attributes/>
@@ -360,11 +376,12 @@ group=group-4</panel_attributes>
     </coordinates>
     <panel_attributes>Ninetales
 --
+
 --
 +Ninetales(): constructor
 +Ninetales(String name): constructor
 +Ninetales(int number, String name): constructor
---
+
 
 group=group-6</panel_attributes>
     <additional_attributes/>
@@ -379,11 +396,12 @@ group=group-6</panel_attributes>
     </coordinates>
     <panel_attributes>Zorua
 --
+
 --
 +Zorua(): constructor
 +Zorua(String name): constructor
 +Zorua(int number, String name): constructor
---
+
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -397,11 +415,12 @@ group=group-6</panel_attributes>
     </coordinates>
     <panel_attributes>Eevee
 --
+
 --
 +Eevee(): constructor
 +Eevee(String name): constructor
 +Eevee(int number, String name): constructor
---
+
 
 group=group-10</panel_attributes>
     <additional_attributes/>
