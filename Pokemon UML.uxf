@@ -9,14 +9,14 @@
       <w>252</w>
       <h>203</h>
     </coordinates>
-    <panel_attributes>/poke.model::Pokemon/
+    <panel_attributes>/Pokemon/
 --
 -pokedexNumber: int
 -health: int
 -canEvolve: boolean
 -name: String
 --
-+Pokemon(int pokedexNumber, String name): ctor
++Pokemon(int pokedexNumber, String name): constructor
 +getTypes(): String[]
 +getHealth(): int
 +isCanEvolve(): boolean
@@ -38,12 +38,12 @@
       <w>210</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Floragato
+    <panel_attributes>Floragato
 --
 --
-+Floragato(): ctor
-+Floragato(String name): ctor
-+Floragato(int number, String name): ctor
++Floragato(): constructor
++Floragato(String name): constructor
++Floragato(int number, String name): constructor
 --
 
 group=group-9</panel_attributes>
@@ -57,12 +57,12 @@ group=group-9</panel_attributes>
       <w>189</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Riolu
+    <panel_attributes>Riolu
 --
 --
-+Riolu(): ctor
-+Riolu(String name): ctor
-+Riolu(int number, String name): ctor
++Riolu(): constructor
++Riolu(String name): constructor
++Riolu(int number, String name): constructor
 --
 
 group=group-1</panel_attributes>
@@ -76,12 +76,12 @@ group=group-1</panel_attributes>
       <w>196</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Lugia
+    <panel_attributes>Lugia
 --
 --
-+Lugia(): ctor
-+Lugia(String name): ctor
-+Lugia(int number, String name): ctor
++Lugia(): constructor
++Lugia(String name): constructor
++Lugia(int number, String name): constructor
 --
 </panel_attributes>
     <additional_attributes/>
@@ -94,12 +94,12 @@ group=group-1</panel_attributes>
       <w>203</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Lucario
+    <panel_attributes>Lucario
 --
 --
-+Lucario(): ctor
-+Lucario(String name): ctor
-+Lucario(int number, String name): ctor
++Lucario(): constructor
++Lucario(String name): constructor
++Lucario(int number, String name): constructor
 --
 
 group=group-1</panel_attributes>
@@ -113,12 +113,12 @@ group=group-1</panel_attributes>
       <w>196</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Vulpix
+    <panel_attributes>Vulpix
 --
 --
-+Vulpix(): ctor
-+Vulpix(String name): ctor
-+Vulpix(int number, String name): ctor
++Vulpix(): constructor
++Vulpix(String name): constructor
++Vulpix(int number, String name): constructor
 --
 
 group=group-6</panel_attributes>
@@ -132,12 +132,12 @@ group=group-6</panel_attributes>
       <w>189</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Mew
+    <panel_attributes>Mew
 --
 --
-+Mew(): ctor
-+Mew(String name): ctor
-+Mew(int number, String name): ctor
++Mew(): constructor
++Mew(String name): constructor
++Mew(int number, String name): constructor
 --
 </panel_attributes>
     <additional_attributes/>
@@ -150,12 +150,12 @@ group=group-6</panel_attributes>
       <w>217</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Sprigatito
+    <panel_attributes>Sprigatito
 --
 --
-+Sprigatito(): ctor
-+Sprigatito(String name): ctor
-+Sprigatito(int number, String name): ctor
++Sprigatito(): constructor
++Sprigatito(String name): constructor
++Sprigatito(int number, String name): constructor
 --
 
 group=group-9</panel_attributes>
@@ -169,12 +169,12 @@ group=group-9</panel_attributes>
       <w>203</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Thievul
+    <panel_attributes>Thievul
 --
 --
-+Thievul(): ctor
-+Thievul(String name): ctor
-+Thievul(int number, String name): ctor
++Thievul(): constructor
++Thievul(String name): constructor
++Thievul(int number, String name): constructor
 --
 
 group=group-7</panel_attributes>
@@ -188,12 +188,12 @@ group=group-7</panel_attributes>
       <w>196</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Espurr
+    <panel_attributes>Espurr
 --
 --
-+Espurr(): ctor
-+Espurr(String name): ctor
-+Espurr(int number, String name): ctor
++Espurr(): constructor
++Espurr(String name): constructor
++Espurr(int number, String name): constructor
 --
 
 group=group-8</panel_attributes>
@@ -207,12 +207,12 @@ group=group-8</panel_attributes>
       <w>203</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Sylveon
+    <panel_attributes>Sylveon
 --
 --
-+Sylveon(): ctor
-+Sylveon(String name): ctor
-+Sylveon(int number, String name): ctor
++Sylveon(): constructor
++Sylveon(String name): constructor
++Sylveon(int number, String name): constructor
 --
 
 group=group-10</panel_attributes>
@@ -226,12 +226,12 @@ group=group-10</panel_attributes>
       <w>210</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Fennekin
+    <panel_attributes>Fennekin
 --
 --
-+Fennekin(): ctor
-+Fennekin(String name): ctor
-+Fennekin(int number, String name): ctor
++Fennekin(): constructor
++Fennekin(String name): constructor
++Fennekin(int number, String name): constructor
 --
 
 group=group-4</panel_attributes>
@@ -245,12 +245,12 @@ group=group-4</panel_attributes>
       <w>231</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Meowscarada
+    <panel_attributes>Meowscarada
 --
 --
-+Meowscarada(): ctor
-+Meowscarada(String name): ctor
-+Meowscarada(int number, String name): ctor
++Meowscarada(): constructor
++Meowscarada(String name): constructor
++Meowscarada(int number, String name): constructor
 --
 
 group=group-9</panel_attributes>
@@ -264,12 +264,12 @@ group=group-9</panel_attributes>
       <w>217</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Cinderace
+    <panel_attributes>Cinderace
 --
 --
-+Cinderace(): ctor
-+Cinderace(String name): ctor
-+Cinderace(int number, String name): ctor
++Cinderace(): constructor
++Cinderace(String name): constructor
++Cinderace(int number, String name): constructor
 --
 </panel_attributes>
     <additional_attributes/>
@@ -282,12 +282,12 @@ group=group-9</panel_attributes>
       <w>210</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Meowstic
+    <panel_attributes>Meowstic
 --
 --
-+Meowstic(): ctor
-+Meowstic(String name): ctor
-+Meowstic(int number, String name): ctor
++Meowstic(): constructor
++Meowstic(String name): constructor
++Meowstic(int number, String name): constructor
 --
 
 group=group-8</panel_attributes>
@@ -301,12 +301,12 @@ group=group-8</panel_attributes>
       <w>203</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Flareon
+    <panel_attributes>Flareon
 --
 --
-+Flareon(): ctor
-+Flareon(String name): ctor
-+Flareon(int number, String name): ctor
++Flareon(): constructor
++Flareon(String name): constructor
++Flareon(int number, String name): constructor
 --
 
 group=group-10</panel_attributes>
@@ -320,12 +320,12 @@ group=group-10</panel_attributes>
       <w>196</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Nickit
+    <panel_attributes>Nickit
 --
 --
-+Nickit(): ctor
-+Nickit(String name): ctor
-+Nickit(int number, String name): ctor
++Nickit(): constructor
++Nickit(String name): constructor
++Nickit(int number, String name): constructor
 --
 
 group=group-7</panel_attributes>
@@ -339,12 +339,12 @@ group=group-7</panel_attributes>
       <w>203</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Braixen
+    <panel_attributes>Braixen
 --
 --
-+Braixen(): ctor
-+Braixen(String name): ctor
-+Braixen(int number, String name): ctor
++Braixen(): constructor
++Braixen(String name): constructor
++Braixen(int number, String name): constructor
 --
 
 group=group-4</panel_attributes>
@@ -358,12 +358,12 @@ group=group-4</panel_attributes>
       <w>210</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Ninetales
+    <panel_attributes>Ninetales
 --
 --
-+Ninetales(): ctor
-+Ninetales(String name): ctor
-+Ninetales(int number, String name): ctor
++Ninetales(): constructor
++Ninetales(String name): constructor
++Ninetales(int number, String name): constructor
 --
 
 group=group-6</panel_attributes>
@@ -377,12 +377,12 @@ group=group-6</panel_attributes>
       <w>196</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Zorua
+    <panel_attributes>Zorua
 --
 --
-+Zorua(): ctor
-+Zorua(String name): ctor
-+Zorua(int number, String name): ctor
++Zorua(): constructor
++Zorua(String name): constructor
++Zorua(int number, String name): constructor
 --
 </panel_attributes>
     <additional_attributes/>
@@ -395,12 +395,12 @@ group=group-6</panel_attributes>
       <w>196</w>
       <h>77</h>
     </coordinates>
-    <panel_attributes>poke.model::Eevee
+    <panel_attributes>Eevee
 --
 --
-+Eevee(): ctor
-+Eevee(String name): ctor
-+Eevee(int number, String name): ctor
++Eevee(): constructor
++Eevee(String name): constructor
++Eevee(int number, String name): constructor
 --
 
 group=group-10</panel_attributes>
