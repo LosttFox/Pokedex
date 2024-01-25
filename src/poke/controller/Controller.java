@@ -1,6 +1,26 @@
 package poke.controller;
 
 import poke.model.*;
+import poke.model.monsters.Braixen;
+import poke.model.monsters.Cinderace;
+import poke.model.monsters.Eevee;
+import poke.model.monsters.Espurr;
+import poke.model.monsters.Fennekin;
+import poke.model.monsters.Flareon;
+import poke.model.monsters.Floragato;
+import poke.model.monsters.Lucario;
+import poke.model.monsters.Lugia;
+import poke.model.monsters.Meowscarada;
+import poke.model.monsters.Meowstic;
+import poke.model.monsters.Mew;
+import poke.model.monsters.Nickit;
+import poke.model.monsters.Ninetales;
+import poke.model.monsters.Riolu;
+import poke.model.monsters.Sprigatito;
+import poke.model.monsters.Sylveon;
+import poke.model.monsters.Thievul;
+import poke.model.monsters.Vulpix;
+import poke.model.monsters.Zorua;
 import poke.view.PokeFrame;
 import java.util.ArrayList;
 
