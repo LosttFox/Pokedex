@@ -24,6 +24,8 @@ import poke.model.monsters.Zorua;
 import poke.view.PokeFrame;
 import java.util.ArrayList;
 
+import javax.swing.JOptionPane;
+
 public class Controller
 {
 	private ArrayList<Pokemon> pokedex;
@@ -111,5 +113,22 @@ public class Controller
 		current.setName(name);
 		current.setHealth(health);
 		current.setCanEvolve(canEvolve);
+	}
+	
+	public boolean validateNumber(String text)
+	{
+		boolean isValid = false;
+		
+		try
+		{
+			Integer.parseInt(text);
+			isValid = true;
+		}
+		catch (NumberFormatException error)
+		{
+			JOptionPane.showMessageDialog(window, "Use a valid number");
+		}
+		
+		return isValid;
 	}
 }

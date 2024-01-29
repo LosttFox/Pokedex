@@ -12,6 +12,7 @@ import javax.swing.JTextArea;
 import javax.swing.JScrollPane;
 import javax.swing.ImageIcon;
 import javax.swing.SpringLayout;
+import javax.swing.DefaultComboBoxModel;
 
 import java.awt.Color;
 import java.awt.GridLayout;
@@ -19,8 +20,8 @@ import java.awt.GridLayout;
 public class PokePanel extends JPanel
 {
 	private Controller app;
-	
 	private SpringLayout layout;
+	
 	private JPanel fieldPanel;
 	private JTextField nameField;
 	private JTextField healthField;
@@ -28,6 +29,7 @@ public class PokePanel extends JPanel
 	private JTextArea typesArea;
 	private JScrollPane typesPane;
 	private JCheckBox evolveBox;
+	
 	private JLabel imageLabel;
 	private ImageIcon pokemonImage;
 	private JComboBox<String> pokedexSelector;
@@ -127,5 +129,4 @@ public class PokePanel extends JPanel
 		layout.putConstraint(SpringLayout.EAST, pokedexSelector, -150, SpringLayout.WEST, fieldPanel);
 		layout.putConstraint(SpringLayout.SOUTH, pokedexSelector, -150, SpringLayout.SOUTH, this);
 	}
-
 }
