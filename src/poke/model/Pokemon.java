@@ -14,14 +14,14 @@ public abstract class Pokemon implements Serializable
 	{	
 		this.pokedexNumber = pokedexNumber;
 		this.name = name;
-		this.canEvolve = false;
 		this.health = 100;
+		this.canEvolve = false;
 	}
 	
 	public void setup(int health, boolean evolve)
 	{
-		setHealth(health);
-		setCanEvolve(evolve);
+		this.health = health;
+		this.canEvolve = evolve;
 	}
 
 	public String[] getTypes()

@@ -119,8 +119,8 @@ public class PokePanel extends JPanel
 		layout.putConstraint(SpringLayout.NORTH, fieldPanel, 25, SpringLayout.NORTH, this);
 		layout.putConstraint(SpringLayout.SOUTH, fieldPanel, -25, SpringLayout.SOUTH, this);
 		
-		layout.putConstraint(SpringLayout.NORTH, imageLabel, 150, SpringLayout.NORTH, this);
-		layout.putConstraint(SpringLayout.WEST, imageLabel, 150, SpringLayout.WEST, this);
+		layout.putConstraint(SpringLayout.NORTH, imageLabel, 60, SpringLayout.NORTH, this);
+		layout.putConstraint(SpringLayout.WEST, imageLabel, 100, SpringLayout.WEST, this);
 		layout.putConstraint(SpringLayout.EAST, imageLabel, -100, SpringLayout.WEST, fieldPanel);
 		
 		layout.putConstraint(SpringLayout.WEST, pokedexSelector, 150, SpringLayout.WEST, this);
