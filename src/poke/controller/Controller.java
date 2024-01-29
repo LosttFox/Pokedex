@@ -68,4 +68,16 @@ public class Controller
 		pokedex.add(new Vulpix());
 		pokedex.add(new Zorua());		
 	}
+
+	public String[] buildPokedexText()
+	{
+		String[] pokedexText = new String[pokedex.size()];
+		
+		for (int index = 0; index < pokedexText.length; index++)
+		{
+			pokedexText[index] = index + ": " + pokedex.get(index).getClass().getSimpleName();
+		}
+		
+		return pokedexText;
+	}
 }

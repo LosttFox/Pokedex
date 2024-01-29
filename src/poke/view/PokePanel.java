@@ -103,7 +103,7 @@ public class PokePanel extends JPanel
 		this.add(fieldPanel);
 		this.add(imageLabel);
 		this.add(pokedexSelector);
-		
+				
 		updateDisplay("");
 	}
 	
