@@ -76,9 +76,13 @@ public class PokePanel extends JPanel
 		catch (NullPointerException error)
 		{
 			pokemonImage = new ImageIcon(getClass().getResource(path + defaultName + extension));
+			imageLabel.setText("Presenting: " + defaultName);
+			pokedexSelector.setSelectedIndex(3);
+			updateFields(3);
 		}
 		
 		imageLabel.setIcon(pokemonImage);
+		
 		repaint();
 	}
 	
