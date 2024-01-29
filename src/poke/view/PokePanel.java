@@ -37,17 +37,74 @@ public class PokePanel extends JPanel
 		super();
 		
 		this.app = app;
+		this.layout = new SpringLayout();
 		
+		this.fieldPanel = new JPanel(new GridLayout(0, 1));
 		
+		this.healthField = new JTextField("Health");
+		this.nameField = new JTextField("Name");
+		this.numberField = new JTextField("Number");
+		
+		this.evolveBox = new JCheckBox("Pokemon evolves?", false);
+		
+		this.typesArea = new JTextArea(20, 20);
+		this.typesPane = new JScrollPane();
+		this.imageLabel = new JLabel("image");
+		this.pokemonImage = new ImageIcon();
+		this.pokedexSelector = new JComboBox<String>();
 		
 		setupPanel();
 		setupListeners();
 		setupLayout();
 	}
 	
+	private void updateDisplay(String name)
+	{
+		String path = "/poke/view/images/";
+		String defaultName = "Espurr";
+		String extension = ".png";
+		
+		try
+		{
+			pokemonImage = new ImageIcon(getClass().getResource(path + name + extension));
+		}
+		catch (NullPointerException error)
+		{
+			pokemonImage = new ImageIcon(getClass().getResource(path + defaultName + extension));
+		}
+		
+		imageLabel.setIcon(pokemonImage);
+		repaint();
+	}
+	
 	private void setupPanel()
 	{
 		setBackground(Color.PINK);
+		
+		this.setLayout(layout);
+		
+		// Component settings
+		numberField.setEnabled(false);
+		typesArea.setEnabled(false);
+		typesPane.setViewportView(typesArea);
+		typesPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+		typesPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		imageLabel.setVerticalTextPosition(JLabel.BOTTOM);
+		imageLabel.setHorizontalTextPosition(JLabel.CENTER);
+		
+		// FieldPanel
+		fieldPanel.add(healthField);
+		fieldPanel.add(nameField);
+		fieldPanel.add(numberField);
+		fieldPanel.add(evolveBox);
+		fieldPanel.add(typesPane);
+		
+		// Main components
+		this.add(fieldPanel);
+		this.add(imageLabel);
+		this.add(pokedexSelector);
+		
+		updateDisplay("");
 	}
 	
 	private void setupListeners()
@@ -57,7 +114,18 @@ public class PokePanel extends JPanel
 	
 	private void setupLayout()
 	{
+		layout.putConstraint(SpringLayout.WEST, fieldPanel, -350, SpringLayout.EAST, this);
+		layout.putConstraint(SpringLayout.EAST, fieldPanel, -25, SpringLayout.EAST, this);
+		layout.putConstraint(SpringLayout.NORTH, fieldPanel, 25, SpringLayout.NORTH, this);
+		layout.putConstraint(SpringLayout.SOUTH, fieldPanel, -25, SpringLayout.SOUTH, this);
 		
+		layout.putConstraint(SpringLayout.NORTH, imageLabel, 150, SpringLayout.NORTH, this);
+		layout.putConstraint(SpringLayout.WEST, imageLabel, 150, SpringLayout.WEST, this);
+		layout.putConstraint(SpringLayout.EAST, imageLabel, -100, SpringLayout.WEST, fieldPanel);
+		
+		layout.putConstraint(SpringLayout.WEST, pokedexSelector, 150, SpringLayout.WEST, this);
+		layout.putConstraint(SpringLayout.EAST, pokedexSelector, -150, SpringLayout.WEST, fieldPanel);
+		layout.putConstraint(SpringLayout.SOUTH, pokedexSelector, -150, SpringLayout.SOUTH, this);
 	}
 
 }
