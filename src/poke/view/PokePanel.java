@@ -55,6 +55,7 @@ public class PokePanel extends JPanel
 		this.pokemonImage = new ImageIcon();
 		this.pokedexSelector = new JComboBox<String>();
 		
+		setupDropDown();
 		setupPanel();
 		setupListeners();
 		setupLayout();
@@ -77,6 +78,13 @@ public class PokePanel extends JPanel
 		
 		imageLabel.setIcon(pokemonImage);
 		repaint();
+	}
+	
+	private void setupDropDown()
+	{
+		String [] data = app.buildPokedexText();
+		DefaultComboBoxModel<String> pokeModel = new DefaultComboBoxModel<String>(data);
+		pokedexSelector.setModel(pokeModel);
 	}
 	
 	private void setupPanel()
