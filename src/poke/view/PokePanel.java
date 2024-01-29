@@ -99,6 +99,21 @@ public class PokePanel extends JPanel
 		
 	}
 	
+	private void collectInput()
+	{
+		String name = nameField.getText();
+		String health = healthField.getText();
+		boolean canEvolve = evolveBox.isSelected();
+		int selectedPokemonIndex = pokedexSelector.getSelectedIndex();
+		
+		if (app.validateNumber(health))
+		{
+			int healthValue = Integer.parseInt(health);
+			
+			app.updateCurrentPokemon(name, selectedPokemonIndex, healthValue, canEvolve);
+		}
+	}
+	
 	private void setupPanel()
 	{
 		setBackground(Color.PINK);
