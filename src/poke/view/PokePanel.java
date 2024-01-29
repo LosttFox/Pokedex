@@ -29,6 +29,7 @@ public class PokePanel extends JPanel
 	private JTextArea typesArea;
 	private JScrollPane typesPane;
 	private JCheckBox evolveBox;
+	private JButton updateButton;
 	
 	private JLabel imageLabel;
 	private ImageIcon pokemonImage;
@@ -49,6 +50,7 @@ public class PokePanel extends JPanel
 		
 		this.evolveBox = new JCheckBox("Pokemon evolves?", false);
 		
+		this.updateButton = new JButton("Update!");
 		this.typesArea = new JTextArea(20, 20);
 		this.typesPane = new JScrollPane();
 		this.imageLabel = new JLabel("image");
@@ -87,7 +89,7 @@ public class PokePanel extends JPanel
 		pokedexSelector.setModel(pokeModel);
 	}
 	
-	private void setupFields(int index)
+	private void updateFields(int index)
 	{
 		String[] data = app.getPokemonData(index);
 		
@@ -96,7 +98,16 @@ public class PokePanel extends JPanel
 		healthField.setText(data[2]);
 		numberField.setText(data[3]);
 		typesArea.setText(data[4]);
-		
+	}
+	
+	private void updatePokemonScreen()
+	{
+		String name = pokedexSelector.getSelectedItem().toString();
+		int nameStart = name.indexOf(": ") + 2;
+		name = name.substring(nameStart);
+		imageLabel.setText("Presenting: " + name);
+		updateDisplay(name);
+		updateFields(pokedexSelector.getSelectedIndex());
 	}
 	
 	private void collectInput()
@@ -135,6 +146,7 @@ public class PokePanel extends JPanel
 		fieldPanel.add(numberField);
 		fieldPanel.add(evolveBox);
 		fieldPanel.add(typesPane);
+		fieldPanel.add(updateButton);
 		
 		// Main components
 		this.add(fieldPanel);
@@ -146,7 +158,8 @@ public class PokePanel extends JPanel
 	
 	private void setupListeners()
 	{
-		
+		updateButton.addActionListener(click -> collectInput());
+		pokedexSelector.addActionListener(select -> updatePokemonScreen());
 	}
 	
 	private void setupLayout()
