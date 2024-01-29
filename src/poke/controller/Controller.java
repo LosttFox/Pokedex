@@ -81,6 +81,29 @@ public class Controller
 		return pokedexText;
 	}
 	
+	public String[] getPokemonData(int index)
+	{
+		String[] currentPokemonInfo = new String [5];
+		
+		Pokemon current = pokedex.get(index);
+		
+		currentPokemonInfo[0] = current.getName();
+		currentPokemonInfo[1] = current.isCanEvolve() + "";
+		currentPokemonInfo[2] = current.getHealth() + "";
+		currentPokemonInfo[3] = current.getPokedexNumber() + "";
+		
+		String types = "";
+		
+		for (String type : current.getTypes())
+		{
+			types += type + "\n";
+		}
+		
+		currentPokemonInfo[4] = types;
+		
+		return currentPokemonInfo;
+	}
+	
 	public void updateCurrentPokemon(String name, int index, int health, boolean canEvolve)
 	{
 		Pokemon current = pokedex.get(index);
