@@ -16,7 +16,7 @@ public class IOController
 
 	public static ArrayList<Pokemon> loadData(String dataFile, Controller app)
 	{
-		ArrayList<Pokemon> savedPokemonList = new ArrayList<Pokemon>();
+		ArrayList<Pokemon> savedPokemonList = null;
 		
 		try (FileInputStream loadStream = new FileInputStream(dataFile);
 			 ObjectInputStream input = new ObjectInputStream(loadStream))
