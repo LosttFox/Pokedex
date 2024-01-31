@@ -7,9 +7,9 @@ import java.io.ObjectOutputStream;
 import java.io.IOException;
 
 import java.util.ArrayList;
+
 import javax.swing.JOptionPane;
 import poke.model.Pokemon;
-
 
 public class IOController
 {
@@ -19,4 +19,15 @@ public class IOController
 		
 	}
 
+	public static ArrayList<Pokemon> loadData()
+	{
+		ArrayList<Pokemon> pokemons = new ArrayList<Pokemon>();
+		
+		return pokemons;
+	}
+	
+	public static void saveData()
+	{
+		
+	}
 }
