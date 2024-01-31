@@ -14,11 +14,6 @@ import poke.model.Pokemon;
 public class IOController
 {
 
-	public IOController()
-	{
-		
-	}
-
 	public static ArrayList<Pokemon> loadData(String dataFile, Controller app)
 	{
 		ArrayList<Pokemon> pokemonList = new ArrayList<Pokemon>();

@@ -1,6 +1,8 @@
 package poke.model.monsters;
 
-public class Braixen extends Fennekin
+import poke.model.types.Fire;
+
+public class Braixen extends Fennekin implements Fire
 {
 
 	public Braixen()
