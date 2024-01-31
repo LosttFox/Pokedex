@@ -19,15 +19,23 @@ public class IOController
 		
 	}
 
-	public static ArrayList<Pokemon> loadData()
+	public static ArrayList<Pokemon> loadData(String dataFile, Controller app)
 	{
-		ArrayList<Pokemon> pokemons = new ArrayList<Pokemon>();
+		ArrayList<Pokemon> pokemonList = new ArrayList<Pokemon>();
 		
-		return pokemons;
+		return pokemonList;
 	}
 	
-	public static void saveData()
+	public static void saveData(String dataFile, ArrayList<Pokemon> pokemonList, Controller app)
 	{
-		
+		try (FileOutputStream saveStream = new FileOutputStream(dataFile); 
+			 ObjectOutputStream output = new ObjectOutputStream(saveStream))
+		{
+			
+		}
+		catch (IOException error)
+		{
+			
+		}
 	}
 }
