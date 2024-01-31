@@ -1,8 +1,9 @@
 package poke.model.monsters;
 
 import poke.model.Pokemon;
+import poke.model.types.Fire;
 
-public class Cinderace extends Pokemon
+public class Cinderace extends Pokemon implements Fire
 {
 	public Cinderace()
 	{

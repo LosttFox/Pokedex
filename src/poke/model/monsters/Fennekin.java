@@ -1,8 +1,9 @@
 package poke.model.monsters;
 
 import poke.model.Pokemon;
+import poke.model.types.Fire;
 
-public class Fennekin extends Pokemon
+public class Fennekin extends Pokemon implements Fire
 {
 
 	public Fennekin()

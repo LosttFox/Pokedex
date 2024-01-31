@@ -1,8 +1,9 @@
 package poke.model.monsters;
 
 import poke.model.Pokemon;
+import poke.model.types.Psychic;
 
-public class Espurr extends Pokemon
+public class Espurr extends Pokemon implements Psychic
 {
 
 	public Espurr()

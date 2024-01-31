@@ -1,6 +1,8 @@
 package poke.model.monsters;
 
-public class Flareon extends Eevee
+import poke.model.types.Fire;
+
+public class Flareon extends Eevee implements Fire
 {
 
 	public Flareon()

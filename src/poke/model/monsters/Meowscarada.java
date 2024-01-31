@@ -1,6 +1,8 @@
 package poke.model.monsters;
 
-public class Meowscarada extends Floragato
+import poke.model.types.Dark;
+
+public class Meowscarada extends Floragato implements Dark
 {
 
 	public Meowscarada()
@@ -16,5 +18,12 @@ public class Meowscarada extends Floragato
 	public Meowscarada(int number, String name)
 	{
 		super(number, name);
+	}
+
+	@Override
+	public void pureDoom(int temp)
+	{
+		// TODO Auto-generated method stub
+		
 	}
 }

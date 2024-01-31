@@ -1,8 +1,10 @@
 package poke.model.monsters;
 
 import poke.model.Pokemon;
+import poke.model.types.Flying;
+import poke.model.types.Psychic;
 
-public class Lugia extends Pokemon
+public class Lugia extends Pokemon implements Psychic, Flying
 {
 
 	public Lugia()
