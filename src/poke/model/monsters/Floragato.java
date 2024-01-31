@@ -1,8 +1,6 @@
 package poke.model.monsters;
 
-import poke.model.types.Grass;
-
-public class Floragato extends Sprigatito implements Grass
+public class Floragato extends Sprigatito
 {
 
 	public Floragato()

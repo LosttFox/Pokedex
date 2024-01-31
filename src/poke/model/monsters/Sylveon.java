@@ -1,6 +1,8 @@
 package poke.model.monsters;
 
-public class Sylveon extends Eevee
+import poke.model.types.Fairy;
+
+public class Sylveon extends Eevee implements Fairy
 {
 
 	public Sylveon()

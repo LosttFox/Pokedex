@@ -1,9 +1,8 @@
 package poke.model.monsters;
 
-import poke.model.types.Fighting;
 import poke.model.types.Steel;
 
-public class Lucario extends Riolu implements Fighting, Steel
+public class Lucario extends Riolu implements Steel
 {
 
 	public Lucario()

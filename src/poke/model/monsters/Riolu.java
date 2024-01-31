@@ -1,8 +1,9 @@
 package poke.model.monsters;
 
 import poke.model.Pokemon;
+import poke.model.types.Fighting;
 
-public class Riolu extends Pokemon
+public class Riolu extends Pokemon implements Fighting
 {
 
 	public Riolu()
