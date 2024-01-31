@@ -16,9 +16,25 @@ public class IOController
 
 	public static ArrayList<Pokemon> loadData(String dataFile, Controller app)
 	{
-		ArrayList<Pokemon> pokemonList = new ArrayList<Pokemon>();
+		ArrayList<Pokemon> savedPokemonList = new ArrayList<Pokemon>();
 		
-		return pokemonList;
+		try (FileInputStream loadStream = new FileInputStream(dataFile);
+			 ObjectInputStream input = new ObjectInputStream(loadStream))
+		{
+			ArrayList<Pokemon> loadedPokemon = new ArrayList<Pokemon>();
+			loadedPokemon = (ArrayList<Pokemon>) input.readObject();
+			savedPokemonList = loadedPokemon;
+		}
+		catch (IOException readError)
+		{
+			JOptionPane.showMessageDialog(app.getWindow(), readError.getMessage(), "Could not read file :<", JOptionPane.ERROR_MESSAGE);
+		}
+		catch (ClassNotFoundException classError)
+		{
+			JOptionPane.showMessageDialog(app.getWindow(), classError.getMessage(), "OMG an impossible class error", JOptionPane.ERROR_MESSAGE);
+		}
+		
+		return savedPokemonList;
 	}
 	
 	public static void saveData(String dataFile, ArrayList<Pokemon> pokemonList, Controller app)
@@ -30,7 +46,7 @@ public class IOController
 		}
 		catch (IOException saveError)
 		{
-			JOptionPane.showMessageDialog(app.getWindow(), saveError.getMessage(), "Oh NOEZ - Couldn't save", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(app.getWindow(), saveError.getMessage(), "Oh NOEZ - Couldn't save!!", JOptionPane.ERROR_MESSAGE);
 		}
 	}
 }
