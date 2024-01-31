@@ -131,4 +131,9 @@ public class Controller
 		
 		return isValid;
 	}
+	
+	public PokeFrame getWindow()
+	{
+		return window;
+	}
 }

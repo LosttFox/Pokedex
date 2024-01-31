@@ -31,11 +31,11 @@ public class IOController
 		try (FileOutputStream saveStream = new FileOutputStream(dataFile); 
 			 ObjectOutputStream output = new ObjectOutputStream(saveStream))
 		{
-			
+			output.writeObject(pokemonList);
 		}
-		catch (IOException error)
+		catch (IOException saveError)
 		{
-			
+			JOptionPane.showMessageDialog(app.getWindow(), saveError.getMessage(), "Oh NOEZ - Couldn't save", JOptionPane.ERROR_MESSAGE);
 		}
 	}
 }
