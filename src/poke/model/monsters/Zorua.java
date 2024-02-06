@@ -24,4 +24,18 @@ public class Zorua extends Pokemon implements Dark
 	{
 		
 	}
+
+	@Override
+	public void nightSlash()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void knockOff()
+	{
+		// TODO Auto-generated method stub
+		
+	}
 }

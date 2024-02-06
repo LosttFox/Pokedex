@@ -19,4 +19,18 @@ public class Sylveon extends Eevee implements Fairy
 	{
 		super(number, name);
 	}
+
+	@Override
+	public void drainingKiss()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean playRough()
+	{
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

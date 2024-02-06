@@ -19,4 +19,18 @@ public class Riolu extends Pokemon implements Fighting
 	{
 		super(number, name);
 	}
+
+	@Override
+	public void reversal()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void finalGambit()
+	{
+		// TODO Auto-generated method stub
+		
+	}
 }

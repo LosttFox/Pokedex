@@ -19,4 +19,18 @@ public class Eevee extends Pokemon implements Normal
 	{
 		super(number, name);
 	}
+
+	@Override
+	public void copycat(int lastMove)
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void endure()
+	{
+		// TODO Auto-generated method stub
+		
+	}
 }

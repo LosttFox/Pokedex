@@ -19,4 +19,18 @@ public class Sprigatito extends Pokemon implements Grass
 	{
 		super(number, name);
 	}
+
+	@Override
+	public void leafage()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean energyBall(int enemyDefense)
+	{
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

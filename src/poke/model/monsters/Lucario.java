@@ -19,4 +19,18 @@ public class Lucario extends Riolu implements Steel
 	{
 		super(number, name);
 	}
+
+	@Override
+	public boolean metalClaw()
+	{
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean flashCannon()
+	{
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

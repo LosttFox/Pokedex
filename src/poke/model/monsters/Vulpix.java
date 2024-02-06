@@ -19,4 +19,18 @@ public class Vulpix extends Pokemon implements Fire
 	{
 		super(number, name);
 	}
+
+	@Override
+	public void flamethrower()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean heatWave()
+	{
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

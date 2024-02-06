@@ -20,4 +20,32 @@ public class Lugia extends Pokemon implements Psychic, Flying
 	{
 		super(number, name);
 	}
+
+	@Override
+	public boolean hurricane()
+	{
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void aerialAce()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean confusion()
+	{
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void trick()
+	{
+		// TODO Auto-generated method stub
+		
+	}
 }
