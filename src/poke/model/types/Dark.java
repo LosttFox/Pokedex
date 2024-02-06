@@ -2,5 +2,7 @@ package poke.model.types;
 
 public interface Dark
 {
-	public void pureDoom(int temp);
+	public void nightSlash();
+	
+	public void knockOff();
 }

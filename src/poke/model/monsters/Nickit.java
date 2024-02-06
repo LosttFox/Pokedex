@@ -1,6 +1,5 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
 import poke.model.types.Dark;
 
 public class Nickit extends Pokemon implements Dark
@@ -22,7 +21,7 @@ public class Nickit extends Pokemon implements Dark
 	}
 
 	@Override
-	public void pureDoom(int temp)
+	public void nightSlash(int temp)
 	{
 		// TODO Auto-generated method stub
 		

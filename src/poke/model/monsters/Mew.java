@@ -1,6 +1,5 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
 import poke.model.types.Psychic;
 
 public class Mew extends Pokemon implements Psychic

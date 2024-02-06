@@ -21,7 +21,7 @@ public class Meowscarada extends Floragato implements Dark
 	}
 
 	@Override
-	public void pureDoom(int temp)
+	public void nightSlash(int temp)
 	{
 		// TODO Auto-generated method stub
 		

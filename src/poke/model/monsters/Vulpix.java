@@ -1,6 +1,5 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
 import poke.model.types.Fire;
 
 public class Vulpix extends Pokemon implements Fire

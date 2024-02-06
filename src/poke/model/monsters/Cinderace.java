@@ -1,6 +1,5 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
 import poke.model.types.Fire;
 
 public class Cinderace extends Pokemon implements Fire
@@ -18,5 +17,19 @@ public class Cinderace extends Pokemon implements Fire
 	public Cinderace(int number, String name)
 	{
 		super(number, name);
+	}
+
+	@Override
+	public void flamethrower()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean heatWave()
+	{
+		// TODO Auto-generated method stub
+		return false;
 	}
 }

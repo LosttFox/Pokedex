@@ -15,6 +15,7 @@ import poke.model.monsters.Meowstic;
 import poke.model.monsters.Mew;
 import poke.model.monsters.Nickit;
 import poke.model.monsters.Ninetales;
+import poke.model.monsters.Pokemon;
 import poke.model.monsters.Riolu;
 import poke.model.monsters.Sprigatito;
 import poke.model.monsters.Sylveon;

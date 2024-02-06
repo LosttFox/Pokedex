@@ -1,6 +1,5 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
 import poke.model.types.Dark;
 
 public class Zorua extends Pokemon implements Dark
@@ -21,7 +20,7 @@ public class Zorua extends Pokemon implements Dark
 		super(number, name);
 	}
 	
-	public void pureDoom(int demo)
+	public void nightSlash(int demo)
 	{
 		
 	}

@@ -9,7 +9,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
-import poke.model.Pokemon;
+
+import poke.model.monsters.Pokemon;
 
 public class IOController
 {
